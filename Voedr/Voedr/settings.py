@@ -54,7 +54,7 @@ ROOT_URLCONF = 'Voedr.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['Voedr/Voedr/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
