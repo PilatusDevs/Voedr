@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Food(object):
+class Food(models.Model):
     """docstring for Food."""
     full_name = models.CharField(max_length=200)
     color =  models.CharField(max_length=200)
